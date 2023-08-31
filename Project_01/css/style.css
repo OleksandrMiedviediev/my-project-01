@@ -824,7 +824,73 @@ img{
 .top{
     margin-bottom: 86px;
 }
+.top_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+.top_card{
+    display: flex;
+    flex-direction: column;
+}
 .top_title{
 margin-bottom: 54px;
+}
+.top_card_pic{
+    position: relative;
+    margin-bottom: 45px;
+}
+.top_card_stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.60);
+    padding: 16px 25px;
+}
+.top_card_title{
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+    color: #FFF;
+    margin: 0 auto 0 0;
+}
+.top_card_likes{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding-right: 20px;
+    background: url(/img/svg/hear_ico.svg) no-repeat right;
+    margin-right: 14px;
+}
+.top_card_comments {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding-right: 23px;
+    background: url(/img/svg/comment_ico.svg) no-repeat right;
+}
+.top_card_desc{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+.top_card_more{
+    width: 118px;
+    padding: 12px 19px;
+    background: #006DFE;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    margin: auto 0 0 0;
+}
+.top_card_more:hover, .top_card_more:focus, .top_card_more:active{
+    background: #0e66da;
 }
 /*Top styles start*/
