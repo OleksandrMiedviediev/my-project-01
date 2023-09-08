@@ -1044,6 +1044,9 @@ margin-bottom: 54px;
     .header_burger{
         display: block;
     }
+    .header_wrapper {
+        padding-top: 28px;
+    }
     .header_nav{
         position: fixed;
         width: 100%;
@@ -1092,6 +1095,23 @@ margin-bottom: 54px;
     }
     .header_nav_close_line:last-child {
         transform: translateY(-50%) rotate(-45deg);
+    }
+    .benefits_card {
+        grid-column: span 3;
+    }
+    .intro {
+        padding-top: 125px;
+    }
+    .intro_title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .intro_subtitle {
+        font-size: 14px;
+    }
+    .search_form_field {
+        width: 100%;
+        margin-right: 0;
     }
 }
 /*Media end*/
